@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in Music Toolbox doesn't work the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing! Please **don't paste your OpenRouter key**, Apple credentials or other secrets anywhere in this form.
+  - type: input
+    id: version
+    attributes:
+      label: Music Toolbox version
+      description: Shown in Settings (⌘,), e.g. 0.1.1-test.1
+      placeholder: 0.1.1-test.1
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description:  → About This Mac
+      placeholder: macOS 26.0
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+      placeholder: |
+        I asked the assistant to "add 15 songs to Workout"…
+        I expected…
+        Instead…
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. See …
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in the app?
+      multiple: true
+      options:
+        - Assistant / playlists it builds
+        - Songs, albums or artists
+        - A playlist page
+        - Menu bar popover
+        - Now playing / AirPlay
+        - Covers
+        - Import / export
+        - Settings or updates
+        - Installing or opening the app
+        - Something else
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or a screen recording
+      description: Drag images or videos here. Crop out anything personal.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log (optional)
+      description: |
+        For crashes or "couldn't start" errors: the last lines of `~/Library/Logs/Apple Music Toolbox/server.log`
+        (Finder → Go → Go to Folder…). Check it doesn't contain anything private before pasting.
+      render: text
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you submit
+      options:
+        - label: I didn't include my OpenRouter key or any other secret.
+          required: true

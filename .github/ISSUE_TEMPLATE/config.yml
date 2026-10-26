@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download the latest version
+    url: https://github.com/kxnerx/apple-music-toolbox-releases/releases
+    about: Test builds and releases, with install steps.
+  - name: Security problem
+    url: https://github.com/kxnerx/apple-music-toolbox-releases/blob/main/SECURITY.md
+    about: Please don't post vulnerability details publicly; read this first.
