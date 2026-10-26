@@ -5,25 +5,36 @@ songs from your library *and* all of Apple Music, give every playlist a cover th
 actually listen, and control playback from the menu bar.
 
 <p align="center">
-  <img src="assets/home.jpg" alt="Home: your listening personality, Made for You mixes and playlists" width="900">
+  <img src="assets/home.jpg" alt="Home: ideas for right now, your listening personality, Made for You mixes" width="900">
 </p>
 
 <table>
   <tr>
     <td width="40%"><img src="assets/assistant.jpg" alt="The assistant drafting a playlist from your library plus new Apple Music songs"></td>
-    <td width="40%"><img src="assets/playlist.jpg" alt="A playlist page tinted by its cover"></td>
+    <td width="40%"><img src="assets/playlist.jpg" alt="A playlist page with its energy flow, one-tap ideas and a Type cover"></td>
     <td width="20%"><img src="assets/menubar.png" alt="The menu bar popover: now playing, Ask, playlists"></td>
   </tr>
   <tr>
     <td>Ask for a playlist: your songs plus new ones</td>
-    <td>Every playlist, tinted by its cover</td>
+    <td>Every playlist's energy, song by song</td>
     <td>The menu bar, from any app</td>
+  </tr>
+  <tr>
+    <td width="40%"><img src="assets/now-playing.jpg" alt="Now Playing: big artwork over its colors, controls, more by the artist and songs like this"></td>
+    <td width="40%" colspan="2"><img src="assets/story.jpg" alt="Your listening story: a top songs card" width="260"></td>
+  </tr>
+  <tr>
+    <td>Now Playing, with songs like this from Apple Music</td>
+    <td colspan="2">Your listening story</td>
   </tr>
 </table>
 
 ## Download
 
 **[Get the latest version →](https://github.com/kxnerx/apple-music-toolbox-releases/releases)**
+
+**Newest test build: [0.1.1-test.2](https://github.com/kxnerx/apple-music-toolbox-releases/releases/tag/v0.1.1-test.2)**:
+Now Playing, your listening story, energy flow on playlists, cover styles and a new app icon.
 
 You need an **Apple Silicon Mac** (M1 or newer) and the Music app. An Apple Music subscription lets the assistant
 suggest new songs, and your own [OpenRouter key](https://openrouter.ai/settings/keys) (a few cents of credit goes a
@@ -52,10 +63,12 @@ long way) turns on the assistant, recommendations and AI covers.
 | **New music** | Playlists mix your library with new songs from Apple Music. New songs wait on the playlist: click **Add all in Music** and press **+** on each; they move into the playlist by themselves. |
 | **Your library** | Songs, albums and artists like the Music app, with love, ratings, *Get Info*, sorting, multi-select and drag-and-drop onto playlists. |
 | **Playlists** | Rename, add, remove (with Undo), export to CSV, text, M3U or JSON, and import from a file. |
-| **Vibe covers** | Every playlist gets a cover that matches its mood; AI art takes about 3 seconds. Drag a cover onto the playlist in Music to use it there. |
-| **Insights** | Your listening personality, top artists and songs, what you're into lately, forgotten favorites, songs you skip. |
+| **Vibe covers** | Every playlist gets a cover that matches its mood, in four instant styles (Type, Neon, Wave, Blend) or AI art in about 3 seconds. Drag a cover onto the playlist in Music to use it there. |
+| **Now Playing** | Click the artwork (or ⌘⇧F) for a full-window player: every control, AirPlay, more by the artist, and **Find songs like this** from all of Apple Music. |
+| **Energy flow** | Every playlist shows its energy song by song and its moods; hover to find a song, click to play from it. One-tap ideas sit right above the songs. |
+| **Insights** | Your listening personality, top artists and songs, what you're into lately, forgotten favorites, songs you skip, and **Your listening story**: full-screen cards you can save as images. |
 | **Menu bar** | Now playing, AirPlay, Ask and your playlists from any app. **⌃⌥Space** opens it with Ask ready. |
-| **Keyboard** | Space plays/pauses, ⌘→ / ⌘← skip, ⌘↑ / ⌘↓ volume, ⌘1–5 jump between sections, ⌘F search. |
+| **Keyboard** | Space plays/pauses, ⌘→ / ⌘← skip, ⌘↑ / ⌘↓ volume, ⌘1–5 jump between sections, ⌘F search, ⌘⇧F Now Playing. |
 
 ## Questions
 
