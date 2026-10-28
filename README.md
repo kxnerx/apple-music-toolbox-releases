@@ -33,8 +33,10 @@ actually listen, and control playback from the menu bar.
 
 **[Get the latest version →](https://github.com/kxnerx/apple-music-toolbox-releases/releases)**
 
-**Newest test build: [0.1.1-test.2](https://github.com/kxnerx/apple-music-toolbox-releases/releases/tag/v0.1.1-test.2)**:
-Now Playing, your listening story, energy flow on playlists, cover styles and a new app icon.
+**Newest test build: [0.1.1-test.3](https://github.com/kxnerx/apple-music-toolbox-releases/releases/tag/v0.1.1-test.3)**:
+a smarter assistant that picks songs that fit what you ask for and keeps every rule you give it (artists or genres
+to leave out, clean only, an era, an exact length or song count), accurate Insights, Liquid Glass blur back on
+menus and dialogs, and many bug fixes. [See everything that changed →](https://github.com/kxnerx/apple-music-toolbox-releases/releases/tag/v0.1.1-test.3)
 
 You need an **Apple Silicon Mac** (M1 or newer) and the Music app. An Apple Music subscription lets the assistant
 suggest new songs, and your own [OpenRouter key](https://openrouter.ai/settings/keys) (a few cents of credit goes a
@@ -59,7 +61,7 @@ long way) turns on the assistant, recommendations and AI covers.
 
 | | |
 | --- | --- |
-| **Ask** (⌘K) | "Make a heavy rap playlist for a gaming stream", "add 15 songs to Workout", "split my Road Trip playlist by genre", "what am I into lately?" Anything that changes your library shows up as a plan you approve first. |
+| **Ask** (⌘K) | "Make a heavy rap playlist for a gaming stream", "chill rap but not sad, about 45 minutes", "add 15 songs to Workout", "take the rap out of my Workout playlist into its own playlist", "what am I into lately?" Every song is checked against what you asked, and rules like "no Drake", "clean" or "90s" are kept. Anything that changes your library shows up as a plan you approve first. |
 | **New music** | Playlists mix your library with new songs from Apple Music. New songs wait on the playlist: click **Add all in Music** and press **+** on each; they move into the playlist by themselves. |
 | **Your library** | Songs, albums and artists like the Music app, with love, ratings, *Get Info*, sorting, multi-select and drag-and-drop onto playlists. |
 | **Playlists** | Rename, add, remove (with Undo), export to CSV, text, M3U or JSON, and import from a file. |
